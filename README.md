@@ -19,8 +19,10 @@ $ sudo apt-get install libboost-all-dev
 ```shell
 $ mkdir -p ~/despot_ws/src
 $ git clone https://github.com/ALARIS-NU/rocksample.git ~/despot_ws/src
-$ cd ~/despot_ws/src
+$ cd ~/despot_ws
 $ catkin_make
+$ echo 'source ~/despot_ws/devel/setup.bash' >> ~/.bashrc
+$ source ~/.bashrc
 ```
 
 ## Usage
